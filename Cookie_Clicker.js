@@ -35,8 +35,6 @@ var Alchemy_Lab = new Building(9, Buildings["Alchemy_Lab"].name, Buildings["Alch
 for (let i = 0; i < buildingNames.length; i++) {
 	var b = buildingObjects[i];
 	
-	rightSection.innerHTML += buildingButtons[i];
-	
 	buildingIds1.push(document.getElementById(buildingNames[i]));
 	buildingIds2.push(document.getElementById(buildingNames[i] + "s"));
 }
